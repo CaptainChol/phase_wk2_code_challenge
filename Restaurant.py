@@ -8,8 +8,8 @@ class  Restaurant:
     # def set_rest(self, name):
     #     self.name=name
         
-    restaurant = property(restaurant_name) 
+    Restaurant = property(restaurant_name) 
 
 
-restaurant = Restaurant()
-print(restaurant.restaurant_name())     
+Restaurant = Restaurant()
+print(Restaurant.restaurant_name())     
